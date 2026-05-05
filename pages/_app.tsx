@@ -3,12 +3,13 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import { light } from "../scss/MaterialTheme";
 import { useState } from "react";
+import "../scss/app.scss";
 
 export default function App({ Component, pageProps }: AppProps) {
   // @ts-ignore
   const [theme, setTheme] = useState(createTheme(light));
 
-  // Global integration of Socket.io, Redux, MUI ...
+  // GLOBAL Integration of Socket.io, Redux, MUI ...
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
