@@ -4,11 +4,10 @@ import { NextPage } from "next";
 
 // BROWSER COMPONENT
 const PropertyList: NextPage = () => {
-  console.log("PROPERTY LIST COMPONENT - PAGES ROUTER"); // logs in browser's console
   return (
-    <>
-      <Container>PROPERTY LIST</Container>
-    </>
+    <div style={{ margin: "20px 0" }}>
+      <Stack className="container">PROPERTY LIST</Stack>
+    </div>
   );
 };
 
