@@ -82,7 +82,7 @@ const Filter = () => {
               value={type}
             />
             <label style={{ cursor: "pointer" }}>
-              <Typography className="property_type">{type}</Typography>
+              <Typography className="property-type">{type}</Typography>
             </label>
           </Stack>
         ))}
